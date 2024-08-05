@@ -1,5 +1,6 @@
 resource "digitalocean_droplet" "web-1" {
   # Note: The list of available versions can be found at https://cloud.digitalocean.com/droplets/new
+  # or https://slugs.do-api.dev/
   image = "ubuntu-23-10-x64"
   name = "web-1"
   region = "ams3"
