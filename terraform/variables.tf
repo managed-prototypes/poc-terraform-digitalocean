@@ -5,6 +5,7 @@ variable "do_pat" {
 
 variable "do_ssh_pvt_key" {
   type = string
+  # Note: not sensitive because it's a file path
 }
 
 variable "application_name" {
